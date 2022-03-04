@@ -1,0 +1,27 @@
+body {
+    background-image: url(./Media/free-website-background-clipart-18.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav ul {
+    background-color: #333333;
+
+}
+
+nav li {
+    position: relative;
+    display: inline;
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+.nav_left_items {
+    padding: 20px;
+}
+
+#about_header {
+    position: absolute;
+    right: 0;
+
+}
