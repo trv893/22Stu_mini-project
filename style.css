@@ -4,16 +4,17 @@ body {
     background-repeat: no-repeat;
 }
 
+
 nav ul {
     background-color: #333333;
-
+    height: 60px;
 }
 
 nav li {
-    position: relative;
     display: inline;
     font-size: 32px;
     font-family: sans-serif;
+    
 }
 
 .nav_left_items {
@@ -21,7 +22,8 @@ nav li {
 }
 
 #about_header {
+    display: inline;
     position: absolute;
-    right: 0;
+    right: 40px;
 
 }
