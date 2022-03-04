@@ -8,22 +8,31 @@ body {
 nav ul {
     background-color: #333333;
     height: 60px;
+    padding-top: 20px;
 }
 
 nav li {
     display: inline;
     font-size: 32px;
     font-family: sans-serif;
-    
+    padding-right: 60px;
+    padd
 }
 
 .nav_left_items {
-    padding: 20px;
+    position: relative;
+    padding-right: 20px;
+
 }
 
 #about_header {
     display: inline;
     position: absolute;
-    right: 40px;
+    right: 0;
 
+}
+
+a {
+    text-decoration: none;
+    color: azure;
 }
