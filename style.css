@@ -21,54 +21,27 @@ nav {
     min-width: 800px;
     display:flex;
     align-items:center;
-    
-
     border-radius: 12px;
     box-shadow: 20px 5px 80px 0px grey;
-
-
-    
-    
-    
 }
 
 nav a {
-    /* width: auto; */
     font-size: 32px;
     margin-right: 60px;
     margin-left: 12px;
     list-style: none;
-    /* display:flex;justify-content:center;align-items:center; */
     text-decoration: none;
     color: azure;
     text-transform: uppercase;
     border-radius: 12px;
-    /* width: calc(100% + 40px); */
     text-align: center;
 
 }
 
-header nav #test {
-}
-
-nav a hfref {
-
-}
-
-
-nav #li{
-
-}
-
-.nav_left_items {
-
-
-
-}
 
 #about_header {
-
-
+    margin-left: auto;
+    margin-right: 12px;
 }
 
 
@@ -76,7 +49,7 @@ nav #li{
 header a:hover {
     background-color: #3671b5;
     padding: 4px;
-    /* width: calc(100% + 2px); */
+
     font-size: 38px;
     transition: .9s;
     box-shadow: 0px 2px 6px 8px #bfdee7;
