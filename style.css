@@ -1,36 +1,84 @@
+* {
+    font-family: sans-serif;
+}
+
 body {
     background-image: url(./Media/free-website-background-clipart-18.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 1200px;
 }
 
-
-nav ul {
+nav {
+    /* margin: auto; */
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    width: 100;
+    min-width: 800px;
     background-color: #333333;
     height: 60px;
-    padding-top: 20px;
+    
     border-radius: 12px;
     box-shadow: 20px 5px 80px 0px grey;
+    display: inline-flex;
+    width: 95%;
+    margin: 0;
+
+    display:flex;justify-content:center;align-items:center;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    /* background-color: #333333;
+    height: 60px;
+    
+    border-radius: 12px;
+    box-shadow: 20px 5px 80px 0px grey;
+    display: inline-flex;
+    width: 95%;
+    margin: 0; */
+    /* display:flex;align-items:center; */
+    /* padding-left: 10px 10px; */
+    /* justify-content: space-between; */
+    /* padding-top: 20px; */
+
+
+    /* position: relative; */
+    /* margin: auto; */
 
 }
 
-nav li {
-    display: inline;
+nav a {
     font-size: 32px;
-    font-family: sans-serif;
     padding-right: 60px;
+    list-style: none;
+    width: 100%;
+    /* margin: auto; */
+
+
 }
 
 .nav_left_items {
-    position: relative;
-    padding-right: 20px;
+    display: none;
+    /* display:flex;align-items:center; */
+    display:flex;justify-content:flex-start;align-items:center;
+    align-self:flex-start
+    /* left: 0; */
+    /* position: relative; */
+
 
 }
 
 #about_header {
-    display: inline;
-    position: absolute;
-    right: 0;
+    /* position: relative;
+    display: inline; */
+    display:flex;
+    align-items:center;
+    align-self: flex-start;
 
 }
 
@@ -45,6 +93,21 @@ header a:hover {
     background-color: #3671b5;
     font-size: 38px;
     transition: .9s;
-    box-shadow: 0px 2px 6px 8px grey;
+    box-shadow: 0px 2px 6px 8px #bfdee7;
+
+  }
+
+footer{
+    padding-top: 120px;
+}
+
+footer a {
+    font-size: 24px;
+    bottom: 0;
+    padding-right: 22px;
+  }
+
+  footer img {
+      max-width: 18px;
 
   }
